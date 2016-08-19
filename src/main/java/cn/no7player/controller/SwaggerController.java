@@ -17,7 +17,6 @@ import java.util.List;
 @RequestMapping(value="/users")
 public class SwaggerController {
 
-
     /*
      *  http://localhost:8080/swagger/index.html
      */
