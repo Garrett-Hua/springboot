@@ -5,5 +5,8 @@
   <select id="findUserInfo" resultType="cn.wqh.model.User">
     select id,name, password,age from user;
   </select>
- 
+
+  <select id="selectById" resultType="cn.wqh.model.User">
+    select * from user WHERE id = #{id}
+  </select>
 </mapper>
