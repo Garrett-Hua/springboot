@@ -9,4 +9,6 @@ import cn.wqh.model.User;
  */
 public interface UserMapper {
     public List<User> findUserInfo();
+
+    User selectById(Integer id);
 }
